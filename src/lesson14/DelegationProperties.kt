@@ -22,4 +22,5 @@ fun main() {
     val e = Example()
     println(e.p)
     e.p = "NEW"
+    println(e.p)
 }
