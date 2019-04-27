@@ -20,7 +20,7 @@ class Delegate() {
 
 fun main() {
     val e = Example()
-    println(e.p)
+    println(e.p + "dasdads")
     e.p = "NEW"
     println(e.p)
 }
