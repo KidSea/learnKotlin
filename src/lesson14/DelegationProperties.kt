@@ -3,7 +3,7 @@ package lesson14
 import kotlin.reflect.KProperty
 
 class Example {
-    var p: String by Delegate()                                               // 1
+    var p: String by Delegate() // 1
 
     override fun toString() = "Example Class"
 }
